@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/ol_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/fab_ol"
+            android:layout_marginTop="14dp"
+            android:fontFamily="font_family_condensed"
+            android:text="00000"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_ol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_toEndOf="@id/ol_tv"
+            android:visibility="invisible"
+            app:elevation="6dp"
+            app:fabSize="mini"
+
+            app:srcCompat="@android:drawable/ic_dialog_email"
+            tools:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/ul_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fab_ol"
+            android:layout_marginTop="14dp"
+            android:fontFamily="font_family_condensed"
+            android:text="00000"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_ul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fab_ol"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_toEndOf="@id/ul_tv"
+            android:visibility="invisible"
+            app:elevation="6dp"
+            app:fabSize="mini"
+
+            app:srcCompat="@android:drawable/ic_dialog_email"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/n_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fab_ul"
+            android:layout_marginTop="14dp"
+            android:fontFamily="font_family_condensed"
+            android:text="00000"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fab_ul"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_toEndOf="@id/n_tv"
+            android:visibility="invisible"
+            app:elevation="6dp"
+            app:fabSize="mini"
+
+            app:srcCompat="@android:drawable/ic_dialog_email"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/ub_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fab_n"
+            android:layout_marginTop="14dp"
+            android:fontFamily="font_family_condensed"
+            android:text="00000"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_ub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fab_n"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_toEndOf="@id/ub_tv"
+            android:visibility="invisible"
+            app:elevation="6dp"
+            app:fabSize="mini"
+
+            app:srcCompat="@android:drawable/ic_dialog_email"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/ol_ub_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fab_ub"
+            android:layout_marginTop="14dp"
+            android:fontFamily="font_family_condensed"
+            android:text="00000"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_ol_ub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fab_ub"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_toEndOf="@id/ol_ub_tv"
+            android:visibility="invisible"
+            app:elevation="6dp"
+            app:fabSize="mini"
+
+            app:srcCompat="@android:drawable/ic_dialog_email"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/ul_ub_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fab_ol_ub"
+            android:layout_marginTop="14dp"
+            android:fontFamily="font_family_condensed"
+            android:text="00000"
+
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_ul_ub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fab_ol_ub"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_toEndOf="@id/ul_ub_tv"
+            android:visibility="gone"
+            app:elevation="6dp"
+            app:fabSize="mini"
+
+            app:srcCompat="@android:drawable/ic_dialog_email"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/dt_health_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fab_ul_ub"
+            android:layout_marginTop="14dp"
+            android:fontFamily="font_family_condensed"
+            android:text="00000"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/dt_health_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fab_ul_ub"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_toEndOf="@id/dt_health_tv"
+            android:visibility="invisible"
+            app:elevation="6dp"
+            app:fabSize="mini"
+
+            app:srcCompat="@android:drawable/ic_dialog_email"
+            tools:visibility="visible" />
+
+        <View
+            android:id="@+id/fab_tv"
+            android:layout_width="40dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/dt_health_counter"
+
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dt_health_counter"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_toEndOf="@id/fab_tv"
+            android:src="@drawable/ic_arrow_right_white_24dp"
+            app:elevation="6dp"
+            app:fabSize="normal" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
